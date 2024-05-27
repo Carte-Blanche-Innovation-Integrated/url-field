@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+    <style>
+        .st0{fill:#a7a9ac}.st1{fill:#818285}.st2{fill:#58585a}.st3{fill:#d1d2d4}.st4{fill:#231f20}
+    </style>
+    <path d="M13.7 41.6h44v8.7h-44z" class="st0"/>
+    <path d="M13.7 55.8h44v8.7h-44z" class="st1"/>
+    <path d="M13.7 69h44v8.7h-44z" class="st2"/>
+    <path d="M13.7 27.6h44v8.7h-44z" class="st3"/>
+    <path d="M13.7 83.2h44v8.7h-44z" class="st4"/>
+    <path d="M63 41.6h18.7v8.7H63z" style="fill:#992224"/>
+    <path d="M63 55.8h18.7v8.7H63z" style="fill:#630f16"/>
+    <path d="M63 69h18.7v8.7H63z" style="fill:#2b1415"/>
+    <path d="M63 27.6h18.7v8.7H63z" style="fill:#e7282d"/>
+    <path d="M63 83.2h18.7v8.7H63z" class="st4"/>
+    <path d="M86.8 42h18.7v8.7H86.8z" class="st0"/>
+    <path d="M86.8 56.2h18.7v8.7H86.8z" class="st1"/>
+    <path d="M86.8 69.4h18.7v8.7H86.8z" class="st2"/>
+    <path d="M86.8 28h18.7v8.7H86.8z" class="st3"/>
+    <path d="M86.8 83.6h18.7v8.7H86.8z" class="st4"/>
+</svg>
