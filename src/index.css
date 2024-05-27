@@ -7,7 +7,7 @@
 }
 
 .react-aria-TextField {
-  @apply text-neutral-900 w-full;
+  @apply w-full text-neutral-900;
 
   .react-aria-Label {
     display: block;
@@ -18,8 +18,8 @@
     @apply text-gray-700;
   }
 
-  &[data-touched][data-invalid="true"] .react-aria-Label,
-  [data-touched] &[data-invalid="true"] .react-aria-Label {
+  &[data-touched][data-invalid='true'] .react-aria-Label,
+  [data-touched] &[data-invalid='true'] .react-aria-Label {
     @apply text-red-500;
   }
 }
@@ -30,8 +30,8 @@
     @apply ring ring-gray-400/20;
   }
 
-  &:focus-within[data-invalid="true"][data-touched] .react-aria-Input,
-  [data-touched] &:focus-within[data-invalid="true"] .react-aria-Input {
+  &:focus-within[data-invalid='true'][data-touched] .react-aria-Input,
+  [data-touched] &:focus-within[data-invalid='true'] .react-aria-Input {
     @apply ring-red-400/20;
   }
 
@@ -43,9 +43,9 @@
     display: block;
     outline: none;
     @apply w-full px-3 py-2;
-    @apply border border-neutral-400 rounded-md;
+    @apply rounded-md border border-neutral-400;
     @apply text-base font-normal sm:text-sm;
-    @apply placeholder:text-neutral-700 transition-all;
+    @apply transition-all placeholder:text-neutral-700;
   }
 }
 
@@ -60,10 +60,9 @@
 }
 
 [data-touched] .react-aria-FieldError {
-  @apply inline-block text-red-500 mt-1 text-xs;
+  @apply mt-1 inline-block text-xs text-red-500;
 }
 
-
-[data-touched] .react-aria-Input[data-invalid="true"] {
+[data-touched] .react-aria-Input[data-invalid='true'] {
   @apply border-red-500;
 }

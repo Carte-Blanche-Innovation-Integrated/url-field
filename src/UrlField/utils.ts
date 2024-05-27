@@ -312,7 +312,6 @@ export function getApexDomain(domain: string) {
   return domain;
 }
 
-
 export function tryParseUrlDomain(url: string) {
   let domain;
   try {

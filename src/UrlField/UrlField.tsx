@@ -1,10 +1,11 @@
 import clsx from 'clsx';
 import {type ElementType, useEffect, useState} from 'react';
 import {FieldError, Input, TextField} from 'react-aria-components';
-import debounce from "just-debounce-it";
 
-import {tryParseUrlDomain} from './utils';
+import debounce from 'just-debounce-it';
+
 import {socialIconsMap} from './social-icons';
+import {tryParseUrlDomain} from './utils';
 
 interface Props {
   name?: string;
@@ -89,7 +90,7 @@ export default function UrlField({value, isRequired, name, placeholder}: Props) 
             Icon ? 'animate-in fade-in zoom-in delay-200' : 'scale-0 transition-transform duration-150'
           )}
         >
-          {Icon && <Icon className="h-4 w-4"/>}
+          {Icon && <Icon className="h-4 w-4" />}
         </div>
         <div
           className={clsx(
@@ -118,7 +119,7 @@ export default function UrlField({value, isRequired, name, placeholder}: Props) 
           onBlur={() => setTouched(true)}
         />
       </div>
-      <FieldError/>
+      <FieldError />
     </TextField>
   );
 }
